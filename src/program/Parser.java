@@ -6,7 +6,6 @@ public class Parser {
     private final Grammar grammar;
     private HashMap<String, Set<String>> firstSet;
     private HashMap<String, Set<String>> followSet;
-    private List<List<String>> productionsRhs;
 
     public Parser(Grammar grammar) {
         this.grammar = grammar;
